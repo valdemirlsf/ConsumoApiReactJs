@@ -1,0 +1,67 @@
+h4{
+    text-align: center;
+}
+#form{
+    width: 60%;
+    margin: auto;
+}
+.corSucesso{
+    background-color: chartreuse;
+}
+.corErro{
+    background-color: crimson;
+}
+.botao{
+    margin:1%;
+}
+#botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#carregamento{
+    padding: 5%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  0px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 0.5%;
+    
+}
+#detalhes{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    padding: 5%;
+}
+#lapis{
+    color: #2f55a4;
+}
+#lixeira{
+    color:red
+}
+#conta{
+    color: #2f55a4;
+}
+th{
+    background-color: rgb(216, 216, 216);
+}
+th, tr, td{
+    padding: 2%;
+}
+table{
+    background-color: rgb(241, 241, 241);
+}
+#botaoAdd{
+    display: none;
+}
+@media (max-width: 992px) {
+    #botaoAdd{
+        display: flex;
+    }
+}
